@@ -74,8 +74,15 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [
+        {name: 'keywords', content: 'ai, aiagent, no-code, low-code, ollama, huggingface, chatbot, api, automation, rest api' },
+        {name: 'og:description', content: 'Otto-m8 provides a flowchart-like UI to interconnect LLMs and Huggingface models, and deploy them as a REST API with little to no code.' },
+        {name: 'author', content: 'farhan0167' },
+        {name: 'og:title', content: 'Otto-m8' },
+        {name: 'og:github', content: 'https://github.com/farhan0167/otto-m8' },
+      ],
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/otto-m8_logo.png',
       navbar: {
         title: 'otto-m8',
         logo: {

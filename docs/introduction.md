@@ -1,4 +1,6 @@
 ---
+description: Introduction to Otto-m8 documentation.
+keywords: [chatbot, ai, openai, gpt4o-mini, gpt4, nocode, workflows, documentation]
 sidebar_position: 1
 ---
 
