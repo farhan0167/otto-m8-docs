@@ -16,7 +16,7 @@ const config = {
   favicon: 'img/otto-m8_logo.png',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://otto-m8.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -47,7 +47,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/farhan0167/otto-m8-docs',
         },
         blog: {
           showReadingTime: true,
@@ -105,7 +105,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/docs/introduction',
               },
             ],
           },
@@ -113,26 +113,18 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/g47wvNprfq',
               },
               {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
+                label: 'Linkedin',
+                href: 'https://www.linkedin.com/in/farhan0167/',
+              }
             ],
           },
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/facebook/docusaurus',
@@ -140,7 +132,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Otto-m8. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

@@ -1,5 +1,7 @@
 ---
 title: Getting Started
+description: Documentation on how to get started with otto-m8.
+keywords: [python, node, docker, ollama]
 sidebar_position: 2
 ---
 
