@@ -34,7 +34,7 @@ export default function Home() {
   return (
     <Layout
       title={`Home`}
-      description="Description will go into a meta tag in <head />">
+      description='Otto-m8 provides a flowchart-like UI to interconnect LLMs and Huggingface models, and deploy them as a REST API with little to no code.'>
 
       <main>
         <div className={styles.landingContainer}>
