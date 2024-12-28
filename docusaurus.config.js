@@ -76,7 +76,7 @@ const config = {
     ({
       metadata: [
         {name: 'keywords', content: 'ai, aiagent, no-code, low-code, ollama, huggingface, chatbot, api, automation, rest api' },
-        {name: 'og:description', content: 'Otto-m8 provides a flowchart-like UI to interconnect LLMs and Huggingface models, and deploy them as a REST API with little to no code.' },
+        {name: 'description', content: 'Otto-m8 provides a flowchart-like UI to interconnect LLMs and Huggingface models, and deploy them as a REST API with little to no code.' },
         {name: 'author', content: 'farhan0167' },
         {name: 'og:title', content: 'Otto-m8' },
         {name: 'og:github', content: 'https://github.com/farhan0167/otto-m8' },
